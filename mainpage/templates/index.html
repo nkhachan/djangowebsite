@@ -1,0 +1,92 @@
+<!-- mainpage/templates/base.html -->
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Noopur's Page</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
+</head>
+<body>
+
+    <div id="fullpage">
+
+        <section>
+            <!-- Background switch
+            <div align="right" style="padding:20px">
+                <label class="switch">
+                    <input id="backgroundcheckbox" type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            -->
+
+            <div class="topbar">
+                <a class="active" href="#home">Home</a>
+                <a href="#experience">Experience</a>
+                <a href="#activities">Activities</a>
+                <a href="{% static 'resources/Resume20.pdf' %}">Resume</a>
+                <a href="anime.html">Anime</a>
+            </div>
+
+
+            <div class="titlebox">
+                <div class="hi">
+                    <b>Hi!<br/></b>
+                </div>
+                <div class="intro">
+                    <p>
+                        My name is Noopur, I am an electrical engineering student
+                        at UC San Diego interested in software development. Feel free to contact me :)
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="experience">
+
+            <div class="titlename">
+                Experience
+            </div>
+
+            <div class="experiencecompany">
+                <a href="https://aws.amazon.com/"><img src="{% static 'img/icons/AWS.png' %}" width="26%" height="10%">
+            </div>
+
+            <div class="experiencecompany">
+                <a href="http://www.ga-asi.com/"><img src="{% static 'img/icons/GA-ASI.png' %}" width="35%" height="35%">
+            </div>
+        </section>
+
+        <section id="activities">
+            <div class="titlename">
+                Activities
+            </div>
+
+            <div class="experiencecompany">
+                <a href="http://swe.ucsd.edu/"><img src="{% static 'img/icons/swe.png' %}" width="22%" height="10%">
+            </div>
+
+            <div class="experiencecompany">
+                <a href="https://sedsucsd.org/"><img src="{% static 'img/icons/seds.png' %}" width="22%" height="22%">
+            </div>
+
+        </section>
+
+        </section>
+        <div class="icons">
+            <a href="https://github.com/nkhachan"><img src="{% static 'img/icons/github.png' %}" width="82" height="86"></a>
+            <a href="mailto:noopur.khachane@gmail.com"><img src="{% static 'img/icons/mail.png' %}" width="82" height="86"></a>
+            <a href="https://www.linkedin.com/in/nkhachan"><img src="{% static 'img/icons/linkedin.png' %}" width="82" height="86"></a>
+            <a href="{% static 'resources/Resume20.pdf' %}"><img src="{% static 'img/icons/resume.png' %}" width="82" height="86"></a>
+        </div>
+        <section>
+    </div>
+
+    <script src="background.js"></script
+</body>
+
+</html>
