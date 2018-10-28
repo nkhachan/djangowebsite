@@ -26,7 +26,7 @@ SECRET_KEY = '7r@!%5yif4bvxr*tyrw6$q*%r1ck1&d&^p1o0)uh(s6r*(m!05'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['35.236.62.219', 'noopsi.me', 'localhost']
 
 
 STATICFILES_DIRS = (
