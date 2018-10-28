@@ -9,13 +9,13 @@ body {
     background-color: #4d4d4d;
     position : absolute;
     width    : 900px;
-    height   : 600px;
+    height   : 650px;
     left     : 50%;
     top      : 50%;
     margin-left : -550px; /* half of the width  */
     margin-top  : -425px; /* half of the height */
     opacity: 0.7;
-    padding: 100px;
+    padding: 80px;
 }
 
 /* bottom container */
@@ -28,16 +28,23 @@ body {
 input {
     width: 75%;
     padding: 20px 20px;
-    margin-top: 50px;
+    font-size: 25px;
 }
 
-btn {
-
-
-
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 75%;
+    padding: 20px 20px;
+    margin-top: 50px;
+    font-size: 30px;
+    border: none;
 }
 
 img {
     height: 200px;
     margin-left: 350px;
+    margin-bottom: 70px;
 }
