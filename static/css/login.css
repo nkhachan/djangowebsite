@@ -29,22 +29,45 @@ input {
     width: 75%;
     padding: 20px 20px;
     font-size: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-    width: 75%;
-    padding: 20px 20px;
-    margin-top: 50px;
-    font-size: 30px;
-    border: none;
+    margin-left: 80px;
 }
 
 img {
     height: 200px;
     margin-left: 350px;
     margin-bottom: 70px;
+}
+
+.btn-group{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.btn-group button {
+    position: relative;
+    background-color: #303030;
+    cursor: pointer;
+    float: left;
+    color: white;
+    height: 150px;
+    width: 530px;
+    font-size: 50px;
+    border-color: black;
+}
+
+
+
+/* Set a style for all buttons */
+#submit {
+    background-color: #4CAF50;
+    color: white
+    cursor: pointer;
+    width: 75%;
+    padding: 20px 20px;
+    margin-top: 50px;
+    font-size: 30px;
+    border: none;
+    margin-left: 100px;
+    color: white;
 }
