@@ -20,5 +20,5 @@ from mainpage import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     path('', views.HomePageView.as_view()), # tell django to read urls.py in example app
-    path('anime/', views.RecommendationsView.as_view())
+    path('login/', views.RecommendationsView.as_view())
 ]
